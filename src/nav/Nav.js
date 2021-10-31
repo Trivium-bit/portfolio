@@ -8,7 +8,7 @@ function Nav() {
     <a href=" ">Скиллы</a>
     <a href=" ">Проеты</a>
     <a href=" ">Контакты</a>
-    <a href=" "></a>
+   
 
     </div>
   );
