@@ -9,10 +9,9 @@ function Skills() {
      <div className={`${styleContainer.container} ${style.skillsContainer}`}>
        <h2 className={style.title}>Skills</h2>
        <div className={style.skills}>
-         <Skill title={"JS"}/>
-         <Skill title={"CSS"}/>
-         <Skill title={"React"}/>
-        
+         <Skill title={"JS"} description={"JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images..."}/>
+         <Skill title={"CSS"} description={"Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML."}/>
+         <Skill title={"React"} description={"This is where things get a little fuzzy and you better have your lexical scope wits about ... So what does this mean for React."}/>
        </div>
      </div>
     </div>
