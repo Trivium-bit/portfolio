@@ -3,17 +3,6 @@
     background-color: rgb(250, 235, 255);
 }
 
-.container {
-border: 1px solid;
-width: 80%;
-height: 100%;
-margin: 0 auto;
-display: flex;
-align-items: center;
-justify-content: space-around;
-
-}
-
 .greetings {
 width: 400px;
 background-color: beige;
