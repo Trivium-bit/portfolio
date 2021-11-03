@@ -1,13 +1,13 @@
-.remoteBlock {
-    height: 30vh;
-    background-color: rgb(141, 180, 182);
+.contactsBlock {
+    height: 100vh;
+    background-color: rgb(169, 204, 155);
 }
-.remoteContainer {
+.contactsContainer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .title {
 width: 500px;
@@ -22,19 +22,19 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
     height: 60px;
     width: 120px;
     font-weight: 700;
-    color: rgb(255, 71, 71);
+    color: rgb(213, 230, 255);
     text-decoration: none;
     padding: .8em 1em calc(.8em + 3px);
     border-radius: 3px;
-    background: rgb(226, 223, 39);
+    background: rgb(43, 99, 57);
     box-shadow: 0 -3px rgb(34, 34, 33) inset;
     transition: 0.2s;
     border-radius: 10px;
     } 
 .button:hover {
-    background: rgb(253, 228, 83);
+    background: rgb(79, 148, 79);
     }
 .button:active {
-    background: rgb(250, 255, 207);
+    background: rgb(142, 189, 135);
     box-shadow: 0 3px rgb(33, 34, 34) inset;
     }
