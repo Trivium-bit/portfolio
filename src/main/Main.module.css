@@ -7,6 +7,7 @@
 .greetings {
 width: 400px;
 background-color: beige;
+text-align: start;
 }
 
 .foto {

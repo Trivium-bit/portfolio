@@ -6,7 +6,7 @@ function Nav() {
     <div className={style.nav}>
     <a href=" ">Главная</a>
     <a href=" ">Скиллы</a>
-    <a href=" ">Проеты</a>
+    <a href=" ">Проекты</a>
     <a href=" ">Контакты</a>
    
 
