@@ -1,0 +1,40 @@
+.remoteBlock {
+    height: 30vh;
+    background-color: rgb(141, 180, 182);
+    
+}
+.remoteContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+width: 500px;
+background-color: rgb(255, 255, 104);
+font-size:larger;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.button {
+    height: 60px;
+    width: 100px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(81, 53, 85);
+    box-shadow: 0 -3px rgb(33, 34, 34) inset;
+    transition: 0.2s;
+    border-radius: 10px;
+    } 
+.button:hover {
+    background: rgb(186, 129, 194);
+    }
+.button:active {
+    background: rgb(247, 178, 255);
+    box-shadow: 0 3px rgb(33, 34, 34) inset;
+    }
