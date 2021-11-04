@@ -1,5 +1,5 @@
 .remoteBlock {
-    height: 30vh;
+    min-height: 30vh;
     background-color: rgb(141, 180, 182);
 }
 .remoteContainer {
@@ -10,7 +10,7 @@
     justify-content: space-around;
 }
 .title {
-width: 500px;
+width: 300px;
 background-color: rgb(255, 177, 104);
 color: rgb(29, 28, 56);
 
