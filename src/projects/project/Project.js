@@ -6,7 +6,7 @@ function Project(props) {
   return (
     <div className={style.project}>
     <div className={style.imgContainer}>
-    <img src={props.img} alt={props.alt}></img>
+    <img className={style.img} src={props.img} alt={props.alt}></img>
     <a href={props.url} className={style.button}>VIEW</a>
     </div> 
     <h4>{props.title}</h4>
