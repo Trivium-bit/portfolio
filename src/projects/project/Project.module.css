@@ -7,16 +7,18 @@ align-items: center;
 text-align: left;
 }
 
-.img {
+.imgContainer {
+width: 100%;
 display: flex;
 flex-direction:column;
+justify-content: center;
 align-items: center;
-
-
 width: 250px;
 height: 250px;
-background-color: rgb(255, 195, 237);
-position: relative;    
+background-color: rgb(230, 204, 255);
+/* background-image: url("https://intersog.com/wp-content/uploads/2017/04/Screen-Shot-2017-04-14-at-3.44.02-PM-e1492176136977.png");
+background-size: cover;
+background-position: center;  */  
 }
 
 .description {

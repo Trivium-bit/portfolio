@@ -8,7 +8,7 @@
     justify-content: flex-start;
 }
 .title {
-    background-color: rgba(255, 246, 234, 0.795);
+    background-color: rgba(255, 169, 71, 0.795);
 }
 .projects{
     border: 1px solid;
@@ -16,4 +16,5 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }

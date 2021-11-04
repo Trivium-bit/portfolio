@@ -1,5 +1,4 @@
 .contactsBlock {
-    height: 100vh;
     background-color: rgb(169, 204, 155);
 }
 .contactsContainer {
@@ -10,7 +9,7 @@
     justify-content: space-around;
 }
 .title {
-width: 500px;
+width: 100%;
 background-color: rgb(255, 177, 104);
 color: rgb(29, 28, 56);
 font-size:larger;
@@ -18,8 +17,7 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 }
 
 .form {
-    height: 250px;
-    width: 400px;
+    width: 280px;
     background-color: rgb(118, 201, 204);
     display: flex;
     flex-direction: column;
@@ -27,8 +25,8 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 }
 
 .button {
-    height: 60px;
-    width: 120px;
+    height: 40px;
+    width: 70px;
     font-weight: 700;
     color: rgb(213, 230, 255);
     text-decoration: none;

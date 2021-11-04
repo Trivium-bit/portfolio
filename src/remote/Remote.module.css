@@ -1,5 +1,4 @@
 .remoteBlock {
-    min-height: 30vh;
     background-color: rgb(141, 180, 182);
 }
 .remoteContainer {
@@ -10,10 +9,9 @@
     justify-content: space-around;
 }
 .title {
-width: 300px;
-background-color: rgb(255, 177, 104);
+width: 100%;
+background-color: rgb(210, 247, 123);
 color: rgb(29, 28, 56);
-
 font-size:larger;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -26,7 +24,7 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
     text-decoration: none;
     padding: .8em 1em calc(.8em + 3px);
     border-radius: 3px;
-    background: rgb(226, 223, 39);
+    background: rgb(230, 228, 117);
     box-shadow: 0 -3px rgb(34, 34, 33) inset;
     transition: 0.2s;
     border-radius: 10px;
