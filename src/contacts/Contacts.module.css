@@ -1,4 +1,5 @@
 .contactsBlock {
+    min-height: 40vh;
     background-color: rgb(169, 204, 155);
 }
 .contactsContainer {
