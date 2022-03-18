@@ -15,3 +15,19 @@ text-align: start;
     height: 400px;
 background-color: beige;
 }
+
+.title {
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: Montserrat,sans-serif;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+    margin: 0 0 15px;
+    box-sizing: border-box;
+    text-align: left !important;
+}
+h1.title span {
+    color: #f9004d;
+  }
