@@ -25,7 +25,9 @@ function Projects() {
   return (
     <div className={style.projectsBlock}>
       <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-        <h2 className={style.title}>My projects</h2>
+        <div className={style.title}>
+          <h2>My projects</h2>
+        </div>
         <div className={style.projects}>
           <Project title={projets.project1.title} description={projets.project1.description} url={projets.project1.url} />
           <Project title={projets.project2.title} description={projets.project2.description} url={projets.project2.url} />

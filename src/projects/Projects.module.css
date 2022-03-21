@@ -8,9 +8,18 @@
     justify-content: flex-start;
 }
 .title {
-    background-color: rgba(255, 169, 71, 0.795);
+    margin-bottom: 30px;
+}
+.title h2{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-family: Poppins,sans-serif;
+    line-height: 1.4074;
+    margin: 0 0 15px;
 }
 .projects{
+    font-family: Poppins,sans-serif;
     border: 1px solid;
     width: 100%;
     display: flex;
@@ -18,3 +27,4 @@
     flex-wrap: wrap;
     box-sizing: border-box;
 }
+

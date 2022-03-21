@@ -1,33 +1,50 @@
 .mainBlock {
     height: 100vh;
-    background-color: rgb(206, 197, 209);
+    background-color: #464444;
     flex-wrap: wrap;
 }
 
 .greetings {
-width: 400px;
-background-color: beige;
-text-align: start;
+    width: 1300px;
+    background-color: beige;
+    text-align: start;
 }
-
-.foto {
-    width: 300px;
-    height: 400px;
-background-color: beige;
+.greetings span{
+    color: rgba(198,201,216,.75);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: block;
+    margin-bottom: 20px;
+    text-align: left !important;
+    line-height: 1.71429;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
 }
-
-.title {
-    color: #1f1f25;
+.greetings h1{
+    color: #fff;
     font-size: 75px;
     font-weight: 900;
     font-family: Montserrat,sans-serif;
     line-height: 90px;
     text-transform: inherit;
     width: 70%;
-    margin: 0 0 15px;
-    box-sizing: border-box;
+    margin: 0px;
     text-align: left !important;
 }
-h1.title span {
-    color: #f9004d;
-  }
+.greetings p{
+    margin: 0px;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: Montserrat,sans-serif;
+    line-height: 90px;
+    text-transform: inherit;
+    text-align: left !important;
+    color: #dc3545;
+}
+
+.foto {
+    width: 300px;
+    height: 400px;
+    background-color: beige;
+}
