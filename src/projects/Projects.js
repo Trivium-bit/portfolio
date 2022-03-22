@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Projects.module.css';
 import styleContainer from './../common/styles/Container.module.css'
 import Project from './project/Project'
+import Title from '../common/styles/components/Title';
 
 const projets = {
   project1: {
@@ -25,9 +26,7 @@ function Projects() {
   return (
     <div className={style.projectsBlock}>
       <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-        <div className={style.title}>
-          <h2>My projects</h2>
-        </div>
+        <Title text={"Projets"} description={"my latest projects "}/>
         <div className={style.projects}>
           <Project title={projets.project1.title} description={projets.project1.description} url={projets.project1.url} />
           <Project title={projets.project2.title} description={projets.project2.description} url={projets.project2.url} />

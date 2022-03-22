@@ -1,23 +1,13 @@
 .projectsBlock {
     min-height: 100vh;
-    background-color: rgb(254, 255, 204);
+    background-color: rgb(250, 224, 152);
     
 }
 .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
 }
-.title {
-    margin-bottom: 30px;
-}
-.title h2{
-    font-size: 60px;
-    color: #fff;
-    font-weight: 700;
-    font-family: Poppins,sans-serif;
-    line-height: 1.4074;
-    margin: 0 0 15px;
-}
+
 .projects{
     font-family: Poppins,sans-serif;
     border: 1px solid;
