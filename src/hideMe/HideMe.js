@@ -1,0 +1,24 @@
+import React from 'react';
+import style from './HideMe.module.css';
+import styleContainer from './../common/styles/Container.module.css'
+import Title from '../common/styles/components/Title';
+import Contacts from '../contacts/Contacts';
+
+function HideMe() {
+  return (
+    <div className={style.remoteBlock}>
+      <div className={`${styleContainer.container} ${style.remoteContainer}`}>
+        <div className={style.contacts}>
+        <Title text={"Hide Me"} description={"I am available for office and distancework. Connect with me via phone: 01923 088574 or email: admin@example.com"} />
+        <Contacts />
+        </div>
+        <div className={style.foto}>foto</div>
+        <span className={style.title}>Рассматриваю вариант удаленной работы</span>
+        <button className={style.button}>Нанять меня</button>
+
+      </div>
+    </div>
+  );
+}
+
+export default HideMe;
