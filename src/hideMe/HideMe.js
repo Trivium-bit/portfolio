@@ -6,8 +6,8 @@ import Contacts from '../contacts/Contacts';
 
 function HideMe() {
   return (
-    <div className={style.remoteBlock}>
-      <div className={`${styleContainer.container} ${style.remoteContainer}`}>
+    <div className={style.hideMeBlock}>
+      <div className={`${styleContainer.container} ${style.hideMeContainer}`}>
         <div className={style.contacts}>
         <Title text={"Hide Me"} description={"I am available for office and distancework. Connect with me via phone: 01923 088574 or email: admin@example.com"} />
         <Contacts />
