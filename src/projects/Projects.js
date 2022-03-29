@@ -1,10 +1,11 @@
 import React from 'react';
 import style from './Projects.module.css';
-import styleContainer from './../common/styles/Container.module.css'
-import Project from './project/Project'
+import styleContainer from './../common/styles/Container.module.css';
+import Project from './project/Project';
 import Title from '../common/styles/components/Title';
-import SocialImage from '../assets/image/social_network.jpg'
-import TodoImage from '../assets/image/Todolist.jpg'
+import SocialImage from '../assets/image/social_network.jpg';
+import TodoImage from '../assets/image/Todolist.jpg';
+import WeatherForecast from '../assets/image/weather_forecast.jpg';
 
 const projets = {
   socialNetwork: {
@@ -25,12 +26,15 @@ const projets = {
 }
 
 function Projects() {
-  
+
   const social = {
     backgroundImage: `url(${SocialImage})`,
   };
   const todolist = {
     backgroundImage: `url(${TodoImage})`,
+  };
+  const weatherForecast ={
+    backgroundImage: `url(${WeatherForecast})`,
   };
 
   return (
@@ -40,7 +44,7 @@ function Projects() {
         <div className={style.projects}>
           <Project style={social} title={projets.socialNetwork.title} description={projets.socialNetwork.description} url={projets.socialNetwork.url} />
           <Project style={todolist} title={projets.project2.title} description={projets.project2.description} url={projets.project2.url} />
-          <Project title={projets.project3.title} description={projets.project3.description} url={projets.project3.url} />
+          <Project style={weatherForecast} title={projets.project3.title} description={projets.project3.description} url={projets.project3.url} />
         </div>
       </div>
     </div>
