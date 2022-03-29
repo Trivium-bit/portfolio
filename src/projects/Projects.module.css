@@ -9,7 +9,8 @@
 }
 
 .projects{
-    font-family: Poppins,sans-serif;
+    height: auto;
+    font-family: 'Poppins',sans-serif;
     border: 1px solid;
     width: 100%;
     display: flex;
