@@ -9,7 +9,7 @@ function Project(props) {
     <div className={style.img} src={props.img}></div>
     <a href={props.url} className={style.button}>VIEW</a>
     </div> 
-    <h4>{props.title}</h4>
+    <h4 className={style.projectTitle}>{props.title}</h4>
     <span className={style.description}>{props.description}</span>
     </div>
   );
