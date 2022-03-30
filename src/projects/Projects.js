@@ -13,12 +13,12 @@ const projets = {
     title: "Social Network",
     description: "JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images...",
   },
-  project2: {
+  todolist: {
     url: "https://intersog.com/wp-content/uploads/2017/04/Screen-Shot-2017-04-14-at-3.44.02-PM-e1492176136977.png",
     title: "Todolist",
     description: "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.",
   },
-  project3: {
+  weatherForecast: {
     url: "https://intersog.com/wp-content/uploads/2017/04/Screen-Shot-2017-04-14-at-3.44.02-PM-e1492176136977.png",
     title: "Weather Forecast",
     description: "This is where things get a little fuzzy and you ",
@@ -43,8 +43,8 @@ function Projects() {
         <Title text={"Projets"} description={"my latest projects "} />
         <div className={style.projects}>
           <Project style={social} title={projets.socialNetwork.title} description={projets.socialNetwork.description} url={projets.socialNetwork.url} />
-          <Project style={todolist} title={projets.project2.title} description={projets.project2.description} url={projets.project2.url} />
-          <Project style={weatherForecast} title={projets.project3.title} description={projets.project3.description} url={projets.project3.url} />
+          <Project style={todolist} title={projets.todolist.title} description={projets.todolist.description} url={projets.todolist.url} />
+          <Project style={weatherForecast} title={projets.weatherForecast.title} description={projets.weatherForecast.description} url={projets.weatherForecast.url} />
         </div>
       </div>
     </div>

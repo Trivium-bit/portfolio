@@ -13,9 +13,6 @@ function HideMe() {
         <Contacts />
         </div>
         <div className={style.foto}>foto</div>
-        <span className={style.title}>Рассматриваю вариант удаленной работы</span>
-        <button className={style.button}>Нанять меня</button>
-
       </div>
     </div>
   );
