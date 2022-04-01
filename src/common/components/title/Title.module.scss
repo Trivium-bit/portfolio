@@ -1,9 +1,12 @@
-@import '../styles/sass/variables.scss';
+@import '../../styles/sass/variables.scss';
 
 .title {
-    font-family: 'Poppins',sans-serif; 
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    font-family: 'Poppins',sans-serif;
 }
+
 .title h2{
     line-height: 1.4074;
     font-size: 60px;
@@ -14,6 +17,7 @@
 }
 
 .title span{
+    padding-top: 10px;
     color: $descriptionColor;
     font-weight: 300;
     font-size: 18px;

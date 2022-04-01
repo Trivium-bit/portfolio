@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './HideMe.module.css';
 import styleContainer from './../common/styles/Container.module.css'
-import Title from '../common/components/Title';
+import Title from '../common/components/title/Title';
 import Contacts from '../contacts/Contacts';
 
 function HideMe() {

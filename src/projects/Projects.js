@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Projects.module.scss';
 import styleContainer from './../common/styles/Container.module.css';
 import Project from './project/Project';
-import Title from '../common/components/Title';
+import Title from '../common/components/title/Title';
 import SocialImage from '../assets/image/social_network.jpg';
 import TodoImage from '../assets/image/Todolist.jpg';
 import WeatherForecast from '../assets/image/weather_forecast.jpg';
