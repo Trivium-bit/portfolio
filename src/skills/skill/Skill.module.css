@@ -1,17 +1,15 @@
-.logo {
-
+.icon {
+    color: #f9004d;
 }
 
 .skill {
-padding: 60px 45px;
-width: 300px;
-background: #191919;
-background-color: black;
-display: flex;
-flex-direction: column;
-margin-top: 30px;
-position: relative;
-border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 60px 45px;
+    width: 300px;
+    background-color: #191919;
 }
 
 .title {
