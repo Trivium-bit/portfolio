@@ -50,9 +50,7 @@ const skills = {
     title: "CSS",
     description: "eets (CSS) is a style sheet language used describiuage used fogng the puage used fogresu ",
   },
-  
 }
-
 
 function Skills() {
   return (
@@ -62,8 +60,8 @@ function Skills() {
         <div className={style.skills}>
           <Skill icon={skills.react.icon} title={skills.react.title} description={skills.react.description} />
           <Skill icon={skills.javascript.icon} title={skills.javascript.title} description={skills.javascript.description} />
-          <Skill logo={skills.typescript.logo} title={skills.typescript.title} description={skills.typescript.description} />
           <Skill logo={skills.redux.logo} title={skills.redux.title} description={skills.redux.description} />
+          <Skill logo={skills.typescript.logo} title={skills.typescript.title} description={skills.typescript.description} />
           <Skill icon={skills.gitHub.icon} title={skills.gitHub.title} description={skills.gitHub.description} />
           <Skill icon={skills.html5.icon} title={skills.html5.title} description={skills.html5.description} />
           <Skill icon={skills.css.icon} title={skills.css.title} description={skills.css.description} />

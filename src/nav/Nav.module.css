@@ -3,13 +3,21 @@
     width: 400px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.nav a {
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.menu a {
     font-family: 'Poppins',sans-serif;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
     padding: 20px 0;
     text-decoration: none;
+    line-height: 1.71429;
+    text-align: left;
 }
