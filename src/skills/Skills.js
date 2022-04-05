@@ -3,7 +3,8 @@ import style from './Skills.module.scss';
 import styleContainer from './../common/styles/Container.module.css'
 import Skill from './skill/Skill'
 import Title from '../common/components/title/Title';
-import { faReact, faJsSquare, faHtml5, faGitAlt, faCss3Alt } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faJsSquare, faHtml5, faGitAlt, faCss3Alt} from '@fortawesome/free-brands-svg-icons';
+import materialUi from '@iconify/icons-mdi/material-ui';
 
 /* import reactLogo from '../assets/icons/react.png';
 import jsLogo from '../assets/icons/js.png';
@@ -38,7 +39,7 @@ const skills = {
   gitHub: {
     icon: faGitAlt,
     title: "Git",
-    description: "heets (CSS) is a style sheet language used describing the presentation of a d",
+    description: "heets (Cge used fogn style sheet lage used fogndescribing the presentation of a d",
   }, 
   html5: {
     icon: faHtml5,
@@ -48,7 +49,17 @@ const skills = {
   css: {
     icon: faCss3Alt,
     title: "CSS",
-    description: "eets (CSS) is a style sheet language used describiuage used fogng the puage used fogresu ",
+    description: "eets (CSS) is a style sheet language ustyle sheet ge used fogng thege used fognused fogresu ",
+  },
+  materialUI: {
+    logo: "mdi:material-ui",
+    title: "MaterialUI",
+    description: "Axios tge used fogntyle sheet tyle sheege used fogntyle sheet ge used fognyle ge used fogn ",
+  },
+  postman: {
+    logo: "simple-icons:postman",
+    title: "Postman",
+    description: "s where things get a litsheet tyle ss where things get a lits  lits where things get a litused fogntyle sheet ge used fognyle ge used fogn ",
   },
 }
 
@@ -65,6 +76,8 @@ function Skills() {
           <Skill icon={skills.gitHub.icon} title={skills.gitHub.title} description={skills.gitHub.description} />
           <Skill icon={skills.html5.icon} title={skills.html5.title} description={skills.html5.description} />
           <Skill icon={skills.css.icon} title={skills.css.title} description={skills.css.description} />
+          <Skill logo={skills.materialUI.logo} title={skills.materialUI.title} description={skills.materialUI.description} />
+          <Skill logo={skills.postman.logo} title={skills.postman.title} description={skills.postman.description} />
         </div>
       </div>
     </div>
