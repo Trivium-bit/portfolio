@@ -56,6 +56,11 @@ const skills = {
     title: "MaterialUI",
     description: "Axios tge used fogntyle sheet tyle sheege used fogntyle sheet ge used fognyle ge used fogn ",
   },
+  antDesign: {
+    logo: "ant-design:ant-design-outlined",
+    title: "AntDesign",
+    description: "(CSS) is a style sheet language used for describingguaged fog(CSS) is a style sheet language used for describingguageeet ge used fognyle ge used fogn ",
+  },
   postman: {
     logo: "simple-icons:postman",
     title: "Postman",
@@ -77,6 +82,7 @@ function Skills() {
           <Skill icon={skills.html5.icon} title={skills.html5.title} description={skills.html5.description} />
           <Skill icon={skills.css.icon} title={skills.css.title} description={skills.css.description} />
           <Skill logo={skills.materialUI.logo} title={skills.materialUI.title} description={skills.materialUI.description} />
+          <Skill logo={skills.antDesign.logo} title={skills.antDesign.title} description={skills.antDesign.description} />
           <Skill logo={skills.postman.logo} title={skills.postman.title} description={skills.postman.description} />
         </div>
       </div>
