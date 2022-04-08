@@ -4,16 +4,6 @@ import styleContainer from './../common/styles/Container.module.css'
 import Skill from './skill/Skill'
 import Title from '../common/components/title/Title';
 import { faReact, faJsSquare, faHtml5, faGitAlt, faCss3Alt} from '@fortawesome/free-brands-svg-icons';
-import materialUi from '@iconify/icons-mdi/material-ui';
-
-/* import reactLogo from '../assets/icons/react.png';
-import jsLogo from '../assets/icons/js.png';
-import html5Logo from '../assets/icons/html5.png';
-import typescriptIcon from '../assets/icons/typescript_icon.png';
-import gitHubLogo from '../assets/icons/github.png';
-import reduxLogo from '../assets/icons/redux.png';
-import cssLogo from '../assets/icons/css.png'; */
-
 
 const skills = {
   react: {

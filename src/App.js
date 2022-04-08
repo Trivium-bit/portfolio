@@ -4,7 +4,7 @@ import Header from './header/Header';
 import Main from './main/Main';
 import Skills from './skills/Skills';
 import Projects from './projects/Projects';
-import HideMe from './hideMe/HideMe';
+import HireMe from './hireMe/HireMe';
 import Footer from './footer/Footer';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <Main />
     <Skills />
     <Projects />
-    <HideMe />
+    <HireMe />
     <Footer />
     </div>
   );
