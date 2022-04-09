@@ -46,6 +46,11 @@ const skills = {
     title: "MaterialUI",
     description: "Axios tge used fogntyle sheet tyle sheege used fogntyle sheet ge used fognyle ge used fogn ",
   },
+  styledComponents: {
+    logo: "file-icons:styledcomponents",
+    title: "Styled-components",
+    description: "Styled-components has quickly become my favorite library for React, so much so, that when I watch a tutorial and it’s not being implemented, I cringe slightly. In styled-component’s words",
+  },
   antDesign: {
     logo: "ant-design:ant-design-outlined",
     title: "AntDesign",
@@ -72,6 +77,7 @@ function Skills() {
           <Skill icon={skills.html5.icon} title={skills.html5.title} description={skills.html5.description} />
           <Skill icon={skills.css.icon} title={skills.css.title} description={skills.css.description} />
           <Skill logo={skills.materialUI.logo} title={skills.materialUI.title} description={skills.materialUI.description} />
+          <Skill logo={skills.styledComponents.logo} title={skills.styledComponents.title} description={skills.styledComponents.description} />
           <Skill logo={skills.antDesign.logo} title={skills.antDesign.title} description={skills.antDesign.description} />
           <Skill logo={skills.postman.logo} title={skills.postman.title} description={skills.postman.description} />
         </div>

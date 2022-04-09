@@ -7,9 +7,8 @@ function Contacts() {
   return (
     <div className={style.contactsBlock}>
       <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-        <span className={style.title}>Contacts</span>
-        
-        <Formik
+    
+        <Formik 
           initialValues={{ email: '', password: '' }}
           validate={values => {
             const errors = {};
@@ -30,21 +29,30 @@ function Contacts() {
           }}
         >
           {({ isSubmitting }) => (
-            <Form className={style.form}>
+            <Form>
+              <div className={style.formsBlock}>
+              <div className={style.inputForm}>
               <Field type="" name="your name" placeholder="Your Name *"  /> 
-
+              </div>
+              <div className={style.inputForm}>
               <Field type="email" name="email" placeholder="Your email *"/>
               <ErrorMessage name="email" component="div" />
-
+              </div>
+              <div className={style.inputForm}>
               <Field type="" name="theme" placeholder="Write a Subject" />
+              </div>
+              <div className={style.inputForm}>
               <Field type="textarea" name="textarea" placeholder="Your message" />
-
+              </div>
               <button type="submit" disabled={isSubmitting}>
                 Submit
               </button>
+              </div>
             </Form>
           )}
         </Formik>
+        
+        </div>
         {/*         <form className={style.form}>
           <input type="text" placeholder="Name"></input>
           <input type="text" placeholder="E-mail"></input>
@@ -53,7 +61,7 @@ function Contacts() {
         <button type="submit" className={style.button}>Send</button> */}
 
       </div>
-    </div>
+
   );
 }
 
