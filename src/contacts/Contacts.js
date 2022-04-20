@@ -6,8 +6,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 function Contacts() {
   return (
     <div className={style.contactsBlock}>
-      <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-
+      <div className={style.contactsContainer}>
         <Formik
           initialValues={{ email: '', password: '' }}
           validate={values => {
@@ -30,19 +29,11 @@ function Contacts() {
         >
           {({ isSubmitting }) => (
             <Form className={style.formsBlock}>
-              <div className={style.inputForm}>
-                <Field type="" name="your name" placeholder="Your Name *" />
-              </div>
-              <div className={style.inputForm}>
-                <Field type="email" name="email" placeholder="Your email *" />
-                <ErrorMessage name="email" component="div" />
-              </div>
-              <div className={style.inputForm}>
-                <Field type="" name="theme" placeholder="Write a Subject" />
-              </div>
-              <div className={style.inputForm}>
-                <Field type="textarea" name="textarea" placeholder="Your message" />
-              </div>
+                <Field className={style.inputForm} type="" name="your name" placeholder="Your Name *" />
+                <Field className={style.inputForm} type="email" name="email" placeholder="Your email *" />
+                <ErrorMessage className={style.error} name="email" component="div" />
+                <Field className={style.inputForm} type="" name="theme" placeholder="Write a Subject" />
+                <Field className={style.inputForm} type="textarea" name="textarea" placeholder="Your message" />
               <button className={style.button} type="submit" disabled={isSubmitting}>
                 Submit
               </button>

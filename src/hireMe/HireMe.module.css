@@ -1,9 +1,9 @@
-.hideMeBlock {
+.hireMeBlock {
     min-height: 100vh;
     background: #101010;
 }
 
-.hideMeContainer {
+.hireMeContainer {
     height: 70vh;
     display: flex;
     flex-wrap: wrap;
@@ -11,11 +11,12 @@
     justify-content: space-around;
 }
 
-.contacts {
+.hireMeArea {
     flex-direction: column;
     justify-content: center;
     text-align: left;
     padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .foto {
@@ -26,4 +27,5 @@
 
 .titleHireMe {
     white-space: pre-wrap;
+    margin-bottom: 50px;
 }
