@@ -7,8 +7,8 @@ function Contacts() {
   return (
     <div className={style.contactsBlock}>
       <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-    
-        <Formik 
+
+        <Formik
           initialValues={{ email: '', password: '' }}
           validate={values => {
             const errors = {};
@@ -29,38 +29,36 @@ function Contacts() {
           }}
         >
           {({ isSubmitting }) => (
-            <Form>
-              <div className={style.formsBlock}>
+            <Form className={style.formsBlock}>
               <div className={style.inputForm}>
-              <Field type="" name="your name" placeholder="Your Name *"  /> 
+                <Field type="" name="your name" placeholder="Your Name *" />
               </div>
               <div className={style.inputForm}>
-              <Field type="email" name="email" placeholder="Your email *"/>
-              <ErrorMessage name="email" component="div" />
+                <Field type="email" name="email" placeholder="Your email *" />
+                <ErrorMessage name="email" component="div" />
               </div>
               <div className={style.inputForm}>
-              <Field type="" name="theme" placeholder="Write a Subject" />
+                <Field type="" name="theme" placeholder="Write a Subject" />
               </div>
               <div className={style.inputForm}>
-              <Field type="textarea" name="textarea" placeholder="Your message" />
+                <Field type="textarea" name="textarea" placeholder="Your message" />
               </div>
-              <button type="submit" disabled={isSubmitting}>
+              <button className={style.button} type="submit" disabled={isSubmitting}>
                 Submit
               </button>
-              </div>
             </Form>
           )}
         </Formik>
-        
-        </div>
-        {/*         <form className={style.form}>
+
+      </div>
+      {/*         <form className={style.form}>
           <input type="text" placeholder="Name"></input>
           <input type="text" placeholder="E-mail"></input>
           <textarea placeholder="message"></textarea>
         </form>
         <button type="submit" className={style.button}>Send</button> */}
 
-      </div>
+    </div>
 
   );
 }
