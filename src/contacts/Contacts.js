@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './Contacts.module.css';
-import styleContainer from './../common/styles/Container.module.css';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 
 function Contacts() {
@@ -8,7 +7,7 @@ function Contacts() {
     <div className={style.contactsBlock}>
       <div className={style.contactsContainer}>
         <Formik
-          initialValues={{ email: '', password: '' }}
+          initialValues={{ email: '', name: '' }}
           validate={values => {
             const errors = {};
             if (!values.email) {
@@ -18,8 +17,12 @@ function Contacts() {
             ) {
               errors.email = 'Invalid email address';
             }
+            if (!values.name) {
+              errors.name = 'Required';
+            }
             return errors;
           }}
+
           onSubmit={(values, { setSubmitting }) => {
             setTimeout(() => {
               alert(JSON.stringify(values, null, 2));
@@ -29,26 +32,19 @@ function Contacts() {
         >
           {({ isSubmitting }) => (
             <Form className={style.formsBlock}>
-                <Field className={style.inputForm} type="" name="your name" placeholder="Your Name *" />
-                <Field className={style.inputForm} type="email" name="email" placeholder="Your email *" />
-                <ErrorMessage className={style.error} name="email" component="div" />
-                <Field className={style.inputForm} type="" name="theme" placeholder="Write a Subject" />
-                <Field className={style.inputForm} type="textarea" name="textarea" placeholder="Your message" />
+              <Field className={style.inputForm} type="input" name="name" placeholder="Your Name *" />
+              <ErrorMessage className={style.error} name="name" component="div" />
+              <Field className={style.inputForm} type="email" name="email" placeholder="Your email *" />
+              <ErrorMessage className={style.error} name="email" component="div" />
+              <Field className={style.inputForm} type="input" name="theme" placeholder="Write a Subject" />
+              <Field className={style.inputForm} type="textarea" name="textarea" placeholder="Your message" />
               <button className={style.button} type="submit" disabled={isSubmitting}>
                 Submit
               </button>
             </Form>
           )}
         </Formik>
-
       </div>
-      {/*         <form className={style.form}>
-          <input type="text" placeholder="Name"></input>
-          <input type="text" placeholder="E-mail"></input>
-          <textarea placeholder="message"></textarea>
-        </form>
-        <button type="submit" className={style.button}>Send</button> */}
-
     </div>
 
   );

@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style: none;  
+    list-style: none;
 }
 
 .logo {
@@ -13,7 +13,7 @@
 }
 
 .menu a {
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
     font-size: 16px;
     font-weight: 500;

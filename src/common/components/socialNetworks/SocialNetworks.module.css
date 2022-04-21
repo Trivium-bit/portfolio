@@ -6,9 +6,13 @@
     align-items: center;
     padding: 0;
     margin: 6px;
-    list-style: none;  
+    list-style: none; 
 }
 
 .icon {
     color: #f9004d;
+}
+
+.icon:hover {
+    transform: scale(1.2);
 }

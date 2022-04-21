@@ -1,33 +1,36 @@
 @import '../../common//styles//sass//mixins.scss';
 
-.project {
+.projectContainer {
     width: 400px;
     background: #191919;
-    text-align: left;
+    border-radius: 10px;
     .image {
         @include projetsImage ();
+
         &:hover {
             @include projetsImage ();
             transform: scale(1.05);
         }
     }
-    .projectTitle {
-        font-size: 24px;
-        line-height: 36px;
-        color: #fff;
-        font-weight: 600;
-        font-family: 'Poppins',sans-serif;
-    } 
-    .description {
-        color: #c6c9d8;
-        font-size: 14px;
-        line-height: 30px;
-        margin: 0 0 15px;
-        font-family: 'Poppins',sans-serif;
-        font-weight: 400;
-    }
 }
 
+.project {
+    text-align: left;
+    padding: 15px;
+}
 
+.projectTitle {
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
 
-
+.description {
+    color: #c6c9d8;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
