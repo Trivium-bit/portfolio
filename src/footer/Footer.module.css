@@ -1,52 +1,29 @@
 .footerBlock {
-    min-height: 40vh;
-    background-color: rgb(255, 204, 169);
-}
-.footerContainer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-}
-.title {
-width: 100%;
-background-color: rgb(174, 210, 219);
-color: rgb(29, 28, 56);
-font-size:larger;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    min-height: 20vh;
+    background-color: black;
 }
 
-.messengersBlock {
-    height: 80px;
-    width: 280px;
-    background-color: rgb(225, 253, 206);
+.footerContainer {
     display: flex;
-    
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.title {
+    background-color: rgb(174, 210, 219);
+    color: rgb(29, 28, 56);
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.copyright{
+    color: aliceblue;
+
 }
 .messenger {
     height: 60px;
     width: 60px;
     background-color: rgb(146, 132, 223);
 }
-.button {
-    height: 60px;
-    width: 120px;
-    font-weight: 700;
-    color: rgb(213, 230, 255);
-    text-decoration: none;
-    padding: .8em 1em calc(.8em + 3px);
-    border-radius: 3px;
-    background: rgb(43, 99, 57);
-    box-shadow: 0 -3px rgb(34, 34, 33) inset;
-    transition: 0.2s;
-    border-radius: 10px;
-    } 
-.button:hover {
-    background: rgb(79, 148, 79);
-    }
-.button:active {
-    background: rgb(142, 189, 135);
-    box-shadow: 0 3px rgb(33, 34, 34) inset;
-    }
