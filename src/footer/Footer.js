@@ -7,7 +7,6 @@ function Footer() {
   return (
     <div className={style.footerBlock}>
     <div className={`${styleContainer.container} ${style.footerContainer}`}>        
-    <div className={style.title}>Baliankou Vitali</div>
     <div className={style.messengersBlock }>
     <SocialNetworks />
     </div>
