@@ -4,46 +4,70 @@
     flex-wrap: wrap;
 }
 
-.greetings {
-    width: 1300px;
-    background-color: beige;
-    text-align: start;
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0px;
 }
-.greetings span{
-    color: rgba(198,201,216,.75);
+
+.greetings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.greetings span {
+    border: solid 1px coral;
+    color: rgba(198, 201, 216, .75);
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    display: block;
     margin-bottom: 20px;
-    text-align: left !important;
     line-height: 1.71429;
-    font-family: Poppins,sans-serif;
+    font-family: Poppins, sans-serif;
     font-weight: 400;
 }
-.greetings h1{
+
+.greetings h1 {
+    border: solid 1px coral;
     color: #fff;
     font-size: 75px;
     font-weight: 900;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
     line-height: 90px;
-    text-transform: inherit;
-    width: 70%;
     margin: 0px;
-    text-align: left !important;
 }
-.greetings p{
+
+.greetings h2 {
+    border: solid 1px coral;
     margin: 0px;
     font-size: 75px;
     font-weight: 900;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
     line-height: 90px;
-    text-transform: inherit;
-    text-align: left !important;
-    color: #dc3545;
+    color: #f9004d;
+}
+
+.greetings p {
+    border: solid 1px coral;
+    margin: 0 0 15px;
+    font-size: 54px;
+    font-weight: 700;
+    font-family: Poppins,sans-serif;
+    line-height: 1.4074;
+    color: #fff;
 }
 
 .foto {
+    border: solid 1px coral;
     width: 300px;
     height: 400px;
     background-color: beige;

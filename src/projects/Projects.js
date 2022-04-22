@@ -42,9 +42,9 @@ function Projects() {
       <div className={`${styleContainer.container} ${style.projectsContainer}`}>
         <Title text={"Projets"} description={"my latest projects "} />
         <div className={style.projects}>
-          <Project image={social.backgroundImage} title={projets.socialNetwork.title} description={projets.socialNetwork.description} url={projets.socialNetwork.url} />
-          <Project image={todolist.backgroundImage} title={projets.todolist.title} description={projets.todolist.description} url={projets.todolist.url} />
-          <Project image={weatherForecast.backgroundImage} title={projets.weatherForecast.title} description={projets.weatherForecast.description} url={projets.weatherForecast.url} />
+          <Project style={social} title={projets.socialNetwork.title} description={projets.socialNetwork.description} url={projets.socialNetwork.url} />
+          <Project style={todolist} title={projets.todolist.title} description={projets.todolist.description} url={projets.todolist.url} />
+          <Project style={weatherForecast} title={projets.weatherForecast.title} description={projets.weatherForecast.description} url={projets.weatherForecast.url} />
         </div>
       </div>
     </div>
