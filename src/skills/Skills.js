@@ -49,7 +49,7 @@ const skills = {
   styledComponents: {
     logo: "file-icons:styledcomponents",
     title: "Styled-components",
-    description: "Styled-components has quickly become my favorite library for React, so much so, that when I watch a tutorial and it’s not being implemented, I cringe slightly. In styled-component’s words",
+    description: "Styled-components has quickly become my favorite library for React, so much so, that when I watch a tutoria",
   },
   antDesign: {
     logo: "ant-design:ant-design-outlined",
