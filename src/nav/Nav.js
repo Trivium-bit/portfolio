@@ -6,10 +6,10 @@ function Nav() {
   return (
     <div className={style.nav}>
       <img className={style.logo} src={logo} alt="logo" />
-      <li className={style.menu}><a href=" ">Главная</a></li>
-      <li className={style.menu}><a href=" ">Скиллы</a></li>
-      <li className={style.menu}><a href=" ">Проекты</a></li>
-      <li className={style.menu}><a href=" ">Контакты</a></li>
+      <li><a href=" ">Главная</a></li>
+      <li><a href=" ">Скиллы</a></li>
+      <li><a href=" ">Проекты</a></li>
+      <li><a href=" ">Контакты</a></li>
     </div>
   );
 }
