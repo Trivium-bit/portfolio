@@ -1,20 +1,23 @@
+@import '../common/styles/sass/variables.scss';
+
 .footerBlock {
     min-height: 15vh;
-    background-color: black;
+    background-color: $backgroundMainColor;
+    .footerContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        .copyright {
+            padding-top: 10px;
+            font-family: $fontFamily;
+            color: $descriptionColor;
+            opacity: .75;
+            margin-bottom: 0;
+            line-height: 30px;
+        }
+    }
 }
 
-.footerContainer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-}
 
-.copyright {
-    padding-top: 10px;
-    font-family: Poppins, sans-serif;
-    color: #c6c9d8;
-    opacity: .75;
-    margin-bottom: 0;
-    line-height: 30px;
-}
+

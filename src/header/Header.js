@@ -1,13 +1,13 @@
 import React from 'react';
-import style from './Header.module.css';
+import style from './Header.module.scss';
 import Nav from './../nav/Nav'
-import SocialNetworks from '../common/components/socialNetworks/SocialNetworks';
+import MySocialNetworks from '../common/components/mySocialNetworks/MySocialNetworks';
 
 function Header() {
   return (
     <div className={style.header}>
         <Nav />
-        <SocialNetworks />
+        <MySocialNetworks />
     </div>
   );
 }

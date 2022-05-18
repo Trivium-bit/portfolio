@@ -1,8 +1,8 @@
 import React from 'react';
-import style from './SocialNetworks.module.scss'
+import style from './MySocialNetworks.module.scss'
 import {Icon} from '@iconify/react';
 
-function SocialNetworks() {
+function MySocialNetworks() {
   return (
     <div className={style.social}>
     <li><a href=" "><Icon icon="akar-icons:telegram-fill" className={style.icon} width="24" height="24" /></a> </li>
@@ -14,4 +14,4 @@ function SocialNetworks() {
   );
 }
 
-export default SocialNetworks;
+export default MySocialNetworks;

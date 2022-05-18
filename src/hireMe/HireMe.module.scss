@@ -1,0 +1,33 @@
+@import '../common/styles/sass/variables.scss';
+
+.hireMeBlock {
+    min-height: 100vh;
+    background: $backgroundSecondColor;
+
+    .hireMeContainer {
+        height: 70vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+
+        .hireMeArea {
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            padding-bottom: 20px;
+            margin-bottom: 50px;
+        }
+
+        .titleHireMe {
+            white-space: pre-wrap;
+            margin-bottom: 50px;
+        }
+
+        .foto {
+            width: 400px;
+            height: 500px;
+            background-color: beige;
+        }
+    }
+}

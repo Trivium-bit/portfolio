@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './HireMe.module.css';
+import style from './HireMe.module.scss';
 import styleContainer from './../common/styles/Container.module.css'
 import Title from '../common/components/title/Title';
 import Contacts from '../contacts/Contacts';
