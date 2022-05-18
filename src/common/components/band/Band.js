@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Band.module.css'
+import style from './Band.module.scss'
 
 function Band() {
   return (

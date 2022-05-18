@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './SocialNetworks.module.css'
+import style from './SocialNetworks.module.scss'
 import {Icon} from '@iconify/react';
 
 function SocialNetworks() {

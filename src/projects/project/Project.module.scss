@@ -4,6 +4,7 @@
     width: 400px;
     background: #191919;
     border-radius: 10px;
+
     .image {
         @include projetsImage ();
 
@@ -12,25 +13,25 @@
             transform: scale(1.05);
         }
     }
-}
 
-.project {
-    text-align: left;
-    padding: 15px;
-}
+    .project {
+        text-align: left;
+        padding: 15px;
 
-.projectTitle {
-    font-size: 24px;
-    line-height: 36px;
-    color: #fff;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-}
+        .projectTitle {
+            font-size: 24px;
+            line-height: 36px;
+            color: #fff;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+        }
 
-.description {
-    color: #c6c9d8;
-    font-size: 14px;
-    line-height: 30px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+        .description {
+            color: #c6c9d8;
+            font-size: 14px;
+            line-height: 30px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+        }
+    }
 }

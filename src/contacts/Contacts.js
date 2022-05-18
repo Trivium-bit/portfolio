@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Contacts.module.css';
+import style from './Contacts.module.scss';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 
 function Contacts() {
@@ -31,7 +31,7 @@ function Contacts() {
           }}
         >
           {({ isSubmitting }) => (
-            <Form className={style.formsBlock}>
+            <Form>
               <Field className={style.inputForm} type="input" name="name" placeholder="Your Name *" />
               <ErrorMessage className={style.error} name="name" component="div" />
               <Field className={style.inputForm} type="email" name="email" placeholder="Your email *" />

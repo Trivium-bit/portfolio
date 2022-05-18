@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Footer.module.css';
+import style from './Footer.module.scss';
 import SocialNetworks from './../common/components/socialNetworks/SocialNetworks';
 import styleContainer from './../common/styles/Container.module.css'
 

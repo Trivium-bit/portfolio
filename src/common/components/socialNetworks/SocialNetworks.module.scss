@@ -1,0 +1,21 @@
+@import '../../styles/sass/variables.scss';
+
+.social {
+    border: 1px solid;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 6px;
+    list-style: none;
+
+    .icon {
+        color: $primeryColor;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+
+
+}
