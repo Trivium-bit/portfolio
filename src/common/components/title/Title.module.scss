@@ -1,24 +1,30 @@
 @import '../../styles/sass/variables.scss';
+@import '../../styles/sass/mixins.scss';
 
 .title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+
     & h2 {
+/*      font-size: 60px;
         line-height: 1.4074;
-        font-size: 60px;
-        color: $titleColor;
         font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+        color: $titleColor; */
+        @include text (60px, 1.4074, 700, $fontFamilyPoppins, $titleColor);
         margin: 0 0 15px;
         margin-bottom: 8px;
+      
     }
     & span {
-        padding-top: 10px;
-        color: $descriptionColor;
-        font-weight: 400;
-        font-size: 18px;
+/*      font-size: 18px;
         line-height: 30px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        color: $descriptionColor; */
+        @include text (18px, 30px, 400, $fontFamilyPoppins, $descriptionColor);
+        padding-top: 10px;
     }
 }
 

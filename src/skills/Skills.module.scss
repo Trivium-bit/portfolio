@@ -1,4 +1,5 @@
 @import '../common/styles/sass/variables.scss';
+@import '../common/styles/sass/mixins.scss';
 
 .skillsBlock {
     min-height: 100vh;
@@ -9,17 +10,19 @@
         justify-content: flex-start;
 
         .skills {
+        /*  font-size: 14px;
+            line-height: 1.71429;
+            font-weight: 400;
+            font-family: 'Poppins', sans-serif;
+            color: $backgroundDescriptionColor; */
+            @include text (14px, 1.71429, 400, $fontFamilyPoppins, $backgroundDescriptionColor);
             width: 80%;
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
-            font-size: 14px;
-            line-height: 1.71429;
-            font-family: $fontFamily;
             color: $backgroundDescriptionColor;
             margin-right: -15px;
             margin-left: -15px;
-            font-weight: 400;
             text-align: left;
         }
     }

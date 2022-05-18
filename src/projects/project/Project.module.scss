@@ -1,4 +1,4 @@
-@import '../../common//styles//sass//mixins.scss';
+@import '../../common/styles/sass/mixins.scss';
 @import '../../common/styles/sass/variables.scss';
 
 .projectContainer {
@@ -10,7 +10,6 @@
         @include projetsImage ();
 
         &:hover {
-            @include projetsImage ();
             transform: scale(1.05);
         }
     }
@@ -20,19 +19,21 @@
         padding: 15px;
 
         .projectTitle {
-            font-size: 24px;
+         /* font-size: 24px;
             line-height: 36px;
-            color: $titleColor;
             font-weight: 600;
-            font-family: $fontFamily;
+            font-family: 'Poppins', sans-serif;
+            color: $titleColor; */
+            @include text (24px, 36px, 600, $fontFamilyPoppins, $titleColor);
         }
 
         .description {
-            color: $descriptionColor;
-            font-size: 14px;
+         /* font-size: 14px;
             line-height: 30px;
-            font-family: $fontFamily;
             font-weight: 400;
+            font-family: 'Poppins', sans-serif;
+            color: $descriptionColor; */
+            @include text (14px, 30px, 400, $fontFamilyPoppins, $descriptionColor);
         }
     }
 }

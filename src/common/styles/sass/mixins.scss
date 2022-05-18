@@ -10,3 +10,11 @@
         background-repeat: no-repeat;
         transition: 0.5s;
 }
+
+@mixin text($fontSize, $lineHeight, $fontWeight, $fontFamily, $color ) {
+        font-size: $fontSize;
+        line-height: $lineHeight;
+        font-weight: $fontWeight;
+        font-family: $fontFamily;
+        color: $color;
+}

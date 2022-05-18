@@ -49,14 +49,9 @@
 
         &:active {
             border: 2px solid $primeryColor;
-            background: $primeryColor;
+            background: $backgroundSecondColor;
             color: $titleColor;
         }
+        
     }
-
-
-
-
-
-
 }
