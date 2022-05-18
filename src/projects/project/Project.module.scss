@@ -1,8 +1,9 @@
 @import '../../common//styles//sass//mixins.scss';
+@import '../../common/styles/sass/variables.scss';
 
 .projectContainer {
     width: 400px;
-    background: #191919;
+    background: $backgroundDescriptionColor;
     border-radius: 10px;
 
     .image {
@@ -21,16 +22,16 @@
         .projectTitle {
             font-size: 24px;
             line-height: 36px;
-            color: #fff;
+            color: $titleColor;
             font-weight: 600;
-            font-family: 'Poppins', sans-serif;
+            font-family: $fontFamily;
         }
 
         .description {
-            color: #c6c9d8;
+            color: $descriptionColor;
             font-size: 14px;
             line-height: 30px;
-            font-family: 'Poppins', sans-serif;
+            font-family: $fontFamily;
             font-weight: 400;
         }
     }

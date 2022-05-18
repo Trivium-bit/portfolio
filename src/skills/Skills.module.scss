@@ -2,24 +2,25 @@
 
 .skillsBlock {
     min-height: 100vh;
-    background-color: #101010;
-}
-.skillsContainer {
-    flex-direction: column;
-    justify-content: flex-start;    
-}
+    background-color: $backgroundSecondColor;
 
-.skills{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    font-size: 14px;
-    line-height: 1.71429;
-    font-family: 'Poppins',sans-serif;
-    color: #1d1d24;
-    margin-right: -15px;
-    margin-left: -15px;
-    font-weight: 400;
-    text-align: left;
+    .skillsContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+
+        .skills {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            font-size: 14px;
+            line-height: 1.71429;
+            font-family: $fontFamily;
+            color: $backgroundDescriptionColor;
+            margin-right: -15px;
+            margin-left: -15px;
+            font-weight: 400;
+            text-align: left;
+        }
+    }
 }
