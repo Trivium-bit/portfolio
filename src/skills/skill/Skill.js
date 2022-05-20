@@ -15,7 +15,7 @@ function Skill(props) {
   } else {
     return (
       <div className={style.skill}>
-        <Icon icon={props.logo} className={style.icon} />
+        <Icon icon={props.logo} className={style.icon}/>
         <h3>{props.title}</h3>
         <span> {props.description} </span>
       </div>

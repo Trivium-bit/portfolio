@@ -36,6 +36,11 @@ const skills = {
     title: "HTML 5",
     description: "This is where things get a little fuzzy and you ",
   },
+  restAPI: {
+    logo: "dashicons:rest-api",
+    title: "REST API",
+    description: "Thiadasdasdas is whesdasdasdasre things get a little fuzzy and you ",
+  },
   css: {
     icon: faCss3Alt,
     title: "CSS",
@@ -70,12 +75,13 @@ function Skills() {
         <Title text={"Skills"} description={"My skills that I have "} />
         <div className={style.skills}>
           <Skill icon={skills.react.icon} title={skills.react.title} description={skills.react.description} />
-          <Skill icon={skills.javascript.icon} title={skills.javascript.title} description={skills.javascript.description} />
           <Skill logo={skills.redux.logo} title={skills.redux.title} description={skills.redux.description} />
+          <Skill icon={skills.javascript.icon} title={skills.javascript.title} description={skills.javascript.description} />
           <Skill logo={skills.typescript.logo} title={skills.typescript.title} description={skills.typescript.description} />
-          <Skill icon={skills.gitHub.icon} title={skills.gitHub.title} description={skills.gitHub.description} />
           <Skill icon={skills.html5.icon} title={skills.html5.title} description={skills.html5.description} />
           <Skill icon={skills.css.icon} title={skills.css.title} description={skills.css.description} />
+          <Skill icon={skills.gitHub.icon} title={skills.gitHub.title} description={skills.gitHub.description} />
+          <Skill logo={skills.restAPI.logo} title={skills.restAPI.title} description={skills.restAPI.description} />
           <Skill logo={skills.materialUI.logo} title={skills.materialUI.title} description={skills.materialUI.description} />
           <Skill logo={skills.styledComponents.logo} title={skills.styledComponents.title} description={skills.styledComponents.description} />
           <Skill logo={skills.antDesign.logo} title={skills.antDesign.title} description={skills.antDesign.description} />
