@@ -10,11 +10,7 @@
         justify-content: flex-start;
 
         .skills {
-            
-            @media screen and (max-width: 906px) {
-                justify-content: center;
-            }
-        /*  font-size: 14px;
+            /*  font-size: 14px;
             line-height: 1.71429;
             font-weight: 400;
             font-family: 'Poppins', sans-serif;
@@ -28,6 +24,10 @@
             margin-right: -15px;
             margin-left: -15px;
             text-align: left;
+
+            @media screen and (max-width: 906px) {
+                justify-content: center;
+            }
         }
     }
 }
