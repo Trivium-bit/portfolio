@@ -26,6 +26,9 @@
         outline: none;
         letter-spacing: .2px;
         font-family: Source Sans Pro, Helvetica, sans-serif;
+        @media screen and (max-width: 1200x) {
+           width: 80%;
+        }
     }
 
     .button {

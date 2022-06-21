@@ -10,18 +10,20 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
+        @media screen and (max-width: 1450px) {
+            justify-content: center;
+            flex-direction: column;
+    }
 
         .hireMeArea {
             flex-direction: column;
             justify-content: center;
             text-align: left;
-            padding-bottom: 20px;
-            margin-bottom: 50px;
         }
 
         .titleHireMe {
             white-space: pre-wrap;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
         }
 
         .foto {
@@ -29,7 +31,10 @@
             width: 100%;
             height: 500px;
             background-color: beige;
+            @media screen and (max-width: 1450px) {
+               margin-top: 30px;
         }
-
+            
+        }
     }
 }
