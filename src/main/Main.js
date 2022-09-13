@@ -5,56 +5,48 @@ import Particles from 'react-particles-js';
 const particlesOpt = {
   "particles": {
     "number": {
-      "value": 200,
-      "density": {
-        "enable": false
-      }
-    },
-    "size": {
-      "value": 3,
-      "random": true,
-      "anim": {
-        "speed": 4,
-        "size_min": 0.3
-      }
+        "value": 80,
+        "density": {
+            "enable": true,
+            "value_area": 1800
+        }
     },
     "line_linked": {
-      "enable": false
-    },
-    "color": {
-      value: "#f9004d"
+        "enable": true,
+        "opacity": 0.02
     },
     "move": {
-      "random": true,
-      "speed": 1,
-      "direction": "top",
-      "out_mode": "out"
-    }
-  },
-  "interactivity": {
+        "direction": "right",
+        "speed": 1
+    },
+    "size": {
+        "value": 2
+    },
+    "opacity": {
+        "anim": {
+            "enable": true,
+            "speed": 1,
+            "opacity_min": 0.05
+        }
+    },
+    "color": {
+      "value": "#ff9ab8"
+  }
+},
+"interactivity": {
     "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "bubble"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "repulse"
-      }
+        "onclick": {
+            "enable": true,
+            "mode": "push"
+        }
     },
     "modes": {
-      "bubble": {
-        "distance": 250,
-        "duration": 2,
-        "size": 0,
-        "opacity": 0
-      },
-      "repulse": {
-        "distance": 400,
-        "duration": 4
-      }
+        "push": {
+            "particles_nb": 1
+        }
     }
-  }
+},
+"retina_detect": true
 };
 
 function Main() {

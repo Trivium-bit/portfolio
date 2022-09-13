@@ -2,7 +2,7 @@
 
 .mainBlock {
     min-height: 100vh;
-    background-color: $backgroundMainColor;
+    background: linear-gradient(120deg,#f9004d, 5%,#101010);
     flex-wrap: wrap;
 
     .particles {
