@@ -6,6 +6,7 @@ import Title from '../common/components/title/Title';
 import SocialImage from '../assets/image/social_network.jpg';
 import TodoImage from '../assets/image/Todolist.jpg';
 import WeatherForecastImage from '../assets/image/weather_forecast.jpg';
+import Fade from 'react-reveal/Fade';
 
 const projets = {
   socialNetwork: {
@@ -40,12 +41,14 @@ function Projects() {
   return (
     <div className={style.projectsBlock}>
       <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-        <Title text={"Projets"} description={"my latest projects "} />
-        <div className={style.projects}>
-          <Project style={social} title={projets.socialNetwork.title} description={projets.socialNetwork.description} url={projets.socialNetwork.url} />
-          <Project style={todolist} title={projets.todolist.title} description={projets.todolist.description} url={projets.todolist.url} />
-          <Project style={weatherForecast} title={projets.weatherForecast.title} description={projets.weatherForecast.description} url={projets.weatherForecast.url} />
-        </div>
+        <Fade bottom>
+          <Title text={"Projets"} description={"my latest projects "} />
+          <div className={style.projects}>
+            <Project style={social} title={projets.socialNetwork.title} description={projets.socialNetwork.description} url={projets.socialNetwork.url} />
+            <Project style={todolist} title={projets.todolist.title} description={projets.todolist.description} url={projets.todolist.url} />
+            <Project style={weatherForecast} title={projets.weatherForecast.title} description={projets.weatherForecast.description} url={projets.weatherForecast.url} />
+          </div>
+        </Fade>
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ import styleContainer from './../common/styles/Container.module.scss'
 import Skill from './skill/Skill'
 import Title from '../common/components/title/Title';
 import { faReact, faJsSquare, faHtml5, faGitAlt, faCss3Alt } from '@fortawesome/free-brands-svg-icons';
+import Fade from 'react-reveal/Fade';
 
 const skills = [
   {
@@ -72,14 +73,17 @@ function Skills() {
   return <>
     <div className={style.skillsBlock}>
       <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-        <Title text={"Skills"} description={"My skills that I have "} />
-        <div className={style.skills}>
-          {skills.map((sk) => {
-            return (
-              <Skill icon={sk.icon} logo={sk.logo} title={sk.title} description={sk.description} />
-            )
-          })}
-        </div>
+        <Fade bottom>
+          <Title text={"Skills"} description={"My skills that I have "} />
+
+          <div className={style.skills}>
+            {skills.map((sk) => {
+              return (
+                <Skill icon={sk.icon} logo={sk.logo} title={sk.title} description={sk.description} />
+              )
+            })}
+          </div>
+        </Fade>
       </div>
     </div>
   </>
