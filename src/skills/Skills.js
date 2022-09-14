@@ -73,13 +73,13 @@ function Skills() {
     <div className={style.skillsBlock}>
       <div className={`${styleContainer.container} ${style.skillsContainer}`}>
         <Title text={"Skills"} description={"My skills that I have "} />
-        {skills.map((sk) => {
-          return (
-            <div className={style.skills}>
+        <div className={style.skills}>
+          {skills.map((sk) => {
+            return (
               <Skill icon={sk.icon} logo={sk.logo} title={sk.title} description={sk.description} />
-            </div>
-          )
-        })}
+            )
+          })}
+        </div>
       </div>
     </div>
   </>
