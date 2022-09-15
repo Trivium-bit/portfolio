@@ -75,7 +75,6 @@ function Skills() {
       <div className={`${styleContainer.container} ${style.skillsContainer}`}>
         <Fade bottom>
           <Title text={"Skills"} description={"My skills that I have "} />
-
           <div className={style.skills}>
             {skills.map((sk) => {
               return (
