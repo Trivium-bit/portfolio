@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Main.module.scss';
 import ParticlesComponent from '../common/particles/Particles';
+import ReactTypingEffect from 'react-typing-effect';
 
 function Main() {
   return (
@@ -10,8 +11,10 @@ function Main() {
         <div className={style.greetings}>
           <span>Hi There</span>
           <h1>I am Baliankou Vitali</h1>
-          <h2>Frontend Developer</h2>
-          <p>from Minsk.</p>
+          <ReactTypingEffect
+          text={"Frontend Developer"} cursorClassName={style.cursor}
+      />
+        {/*  <h2>Frontend Developer</h2> */}
         </div>
         <div className={style.foto}>foto</div>
       </div>
