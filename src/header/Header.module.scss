@@ -1,6 +1,11 @@
 @import '../common/styles/sass/variables.scss';
 
 .header {
+    position:fixed;
+    top:0;
+    display:block;
+    z-index: 1;
+    min-width: 100%;
     padding-top: 25px;
     display: flex;
     flex-wrap: wrap;
@@ -8,7 +13,6 @@
     padding-left: 50px;
     padding-right: 50px;
     background-color: $backgroundMainColor;
-
 
     @media screen and (max-width: 820px) {
         flex-direction: column;

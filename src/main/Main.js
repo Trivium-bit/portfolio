@@ -2,25 +2,24 @@ import React from 'react';
 import style from './Main.module.scss';
 import ParticlesComponent from '../common/particles/Particles';
 import ReactTypingEffect from 'react-typing-effect';
-import Tilt from 'react-tilt';
-import foto from '../assets/icons/materialUi.png'
+import foto from '../assets/icons/materialUi.png';
+import Tilt from 'react-parallax-tilt';
 
 function Main() {
   return (
-    <div className={style.mainBlock}>
+    <div id="main" className={style.mainBlock}>
       <div className={style.mainContainer}>
-      <ParticlesComponent />
+        {/* <ParticlesComponent /> */}
         <div className={style.greetings}>
           <span>Hi There</span>
           <h1>I am Baliankou Vitali</h1>
           <ReactTypingEffect
-          text={"Frontend Developer"} cursorClassName={style.cursor}
-      />
+            text={"Frontend Developer"} cursorClassName={style.cursor}
+          />
         </div>
-        <Tilt className="Tilt" options={{ max : 25 }} >
-       <img className={style.foto} src={foto}/>
+        <Tilt transitionSpeed={3000}>
+          <img className={style.foto} src={foto} />
         </Tilt>
-       
       </div>
     </div>
   );

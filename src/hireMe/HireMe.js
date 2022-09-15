@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 
 function HireMe() {
   return (
-    <div className={style.hireMeBlock}>
+    <div id="contacts" className={style.hireMeBlock}>
       <div className={`${styleContainer.container} ${style.hireMeContainer}`}>
         <Fade bottom>
           <div className={style.hireMeArea}>

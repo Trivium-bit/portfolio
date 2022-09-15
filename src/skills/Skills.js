@@ -71,7 +71,7 @@ const skills = [
 
 function Skills() {
   return <>
-    <div className={style.skillsBlock}>
+    <div id="skills" className={style.skillsBlock}>
       <div className={`${styleContainer.container} ${style.skillsContainer}`}>
         <Fade bottom>
           <Title text={"Skills"} description={"My skills that I have "} />
