@@ -6,6 +6,7 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 function BurgerNav() {
   return (
     <div className={style.burgerNav}>
+      <div className={style.burgerNavItems}>
       <img className={style.logo} src={logo} alt="logo" />
       <Link
         activeClass={style.active}
@@ -59,6 +60,8 @@ function BurgerNav() {
         spyThrottle={500}
       > Contacts
        </Link>
+       </div>
+       <div className={style.burgerBtn}></div>
     </div>
   );
 }
