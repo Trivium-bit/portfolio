@@ -1,0 +1,40 @@
+@import '../../common/styles/sass/variables.scss';
+
+.burgerNav {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: antiquewhite;
+
+    a {
+        font-family: 'Poppins', sans-serif;
+        color: $titleColor;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 20px 0;
+        line-height: 1.71429;
+        text-align: left;
+        
+        &:hover {
+            text-decoration: none;
+            color: $primeryColor;
+            cursor: pointer;
+        }
+    }
+    .active {
+        color: $primeryColor;
+    }
+    .logo {
+        height: 55px;
+        width: 55px;
+    }
+    
+    @media screen and (min-width: 400px) {
+        display: none;
+    }
+
+}

@@ -1,7 +1,6 @@
 import React from 'react';
 import style from './Nav.module.scss';
-import logo from '../assets/icons/logo.png';
-import * as Scroll from 'react-scroll';
+import logo from '../../assets/icons/logo.png';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 function Nav() {

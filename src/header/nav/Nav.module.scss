@@ -1,4 +1,4 @@
-@import '../common/styles/sass/variables.scss';
+@import '../../common/styles/sass/variables.scss';
 
 .nav {
     width: 400px;
@@ -20,7 +20,7 @@
         &:hover {
             text-decoration: none;
             color: $primeryColor;
-            
+            cursor: pointer;
         }
     }
     .active {
@@ -29,6 +29,9 @@
     .logo {
         height: 55px;
         width: 55px;
+    }
+    @media screen and (max-width: 400px) {
+        display: none;
     }
 
 }
