@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './BurgerNav.module.scss';
 import logo from '../../assets/icons/logo.png';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 function BurgerNav() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Nav.module.scss';
 import logo from '../../assets/icons/logo.png';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 function Nav() {
   return (
@@ -13,7 +13,7 @@ function Nav() {
         spy={true}
         smooth={true}
         hashSpy={true}
-        offset={-10}
+        offset={0}
         duration={500}
         isDynamic={true}
         ignoreCancelEvents={false}
@@ -26,7 +26,7 @@ function Nav() {
         spy={true}
         smooth={true}
         hashSpy={true}
-        offset={-92}
+        offset={-67}
         duration={500}
         isDynamic={true}
         ignoreCancelEvents={false}
@@ -39,7 +39,7 @@ function Nav() {
         spy={true}
         smooth={true}
         hashSpy={true}
-        offset={-92}
+        offset={-67}
         duration={500}
         isDynamic={true}
         ignoreCancelEvents={false}
@@ -52,7 +52,7 @@ function Nav() {
         spy={true}
         smooth={true}
         hashSpy={true}
-        offset={-92}
+        offset={-67}
         duration={500}
         isDynamic={true}
         ignoreCancelEvents={false}

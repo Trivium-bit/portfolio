@@ -9,7 +9,7 @@ function Main() {
   return (
     <div id="main" className={style.mainBlock}>
       <div className={style.mainContainer}>
-        {/* <ParticlesComponent /> */}
+        <ParticlesComponent />
         <div className={style.greetings}>
           <span>Hi There</span>
           <h1>I am Baliankou Vitali</h1>

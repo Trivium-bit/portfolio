@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Title.module.scss'
-import Band from '../band/Band'
+import Band from './band/Band'
 
 function Title(props) {
   return (

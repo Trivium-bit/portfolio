@@ -10,15 +10,20 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
+
         @media screen and (max-width: 1450px) {
             justify-content: center;
             flex-direction: column;
-    }
+    }   
+
 
         .hireMeArea {
             flex-direction: column;
             justify-content: center;
             text-align: left;
+            @media screen and (max-width: 850px) {
+                margin: 0px 10px;
+            }
         }
 
         .titleHireMe {
