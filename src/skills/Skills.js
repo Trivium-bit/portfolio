@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from './Skills.module.scss';
 import styleContainer from './../common/styles/Container.module.scss'
 import Skill from './skill/Skill'
 import Title from '../common/components/title/Title';
 import { faReact, faJsSquare, faHtml5, faGitAlt, faCss3Alt } from '@fortawesome/free-brands-svg-icons';
-import { Icon } from '@iconify/react';
 import Fade from 'react-reveal/Fade';
+import { Icon } from '@iconify/react';
 
 const skills = [
   {
@@ -68,24 +68,41 @@ const skills = [
     title: "Styled-components",
     description: "Styled-components has quickly become my favorite library for React. One of the most important problems they solve is selector name collisions.",
   },
-/*   {
-    logo: "ant-design:ant-design-outlined",
-    title: "AntDesign",
-    description: "Ant Design is a complete design system and has two features that set it apart from similar libraries: tables and forms.",
-  }, */
+  /*   {
+      logo: "ant-design:ant-design-outlined",
+      title: "AntDesign",
+      description: "Ant Design is a complete design system and has two features that set it apart from similar libraries: tables and forms.",
+    }, */
 ]
 
 function Skills() {
+
+  const [showDescriptions, setDescription] = useState(false);
+
+  let showDescriptionClick = () => {
+    setDescription(!showDescriptions);
+    console.log(showDescriptions)
+  }
   return <>
     <div id="skills" className={style.skillsBlock}>
       <div className={`${styleContainer.container} ${style.skillsContainer}`}>
         <Fade bottom>
           <Title text={"Skills"} description={"My skills that I have "} />
+          <div className={style.showDscr}>
+            <h2>show skill description</h2>
+            <Icon icon="bi:arrow-down-circle-fill" className={style.icon} onClick={showDescriptionClick}/>
+            </div>
           <div className={style.skills}>
             {skills.map((sk) => {
+              if (showDescriptions) {
               return (
                 <Skill icon={sk.icon} logo={sk.logo} title={sk.title} description={sk.description} />
               )
+              } else {
+                return (
+                  <Skill icon={sk.icon} logo={sk.logo} title={sk.title}/>
+                )
+              }
             })}
           </div>
         </Fade>

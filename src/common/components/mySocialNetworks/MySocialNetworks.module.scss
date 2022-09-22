@@ -12,8 +12,8 @@
     .icon {
         color: $primeryColor;
         &:hover {
-            transform: scale(1.2);
-            transition: 0.3s;
+            transform: scale(1.05);
+            transition: 0.2s;
         }
     }
     @media screen and (max-width: 420px) {

@@ -6,10 +6,10 @@ import { Link } from 'react-scroll';
 function BurgerNav() {
 
  const [menuIsOpen, setBurgerMenu] = useState(false);
+ 
   let onBurgerClick = () => {
     setBurgerMenu(!menuIsOpen);
   }
-
 
   return (
     <div className={style.burgerNav}>
