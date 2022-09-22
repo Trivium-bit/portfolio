@@ -2,51 +2,61 @@
 
 .burgerNav {
     background-color: antiquewhite;
-    position: relative;
     width: 100%;
     height: 100%;
+
     .burgerNavItems {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        list-style: none;
-        background-color: rgb(218, 248, 187);
         flex-wrap: nowrap;
+        list-style: none;
+        background-color: $backgroundMainColor;
         position: absolute;
         right: 0;
-        top: 50px;
-        display: none;
+        left: 0;
+        top: 0;
+        height: 0;
+        padding: 26px;
+        transform: translate(0, -200px);
+        transition: 0.7s;
         a {
             font-family: 'Poppins', sans-serif;
             color: $titleColor;
             font-size: 16px;
             text-decoration: none;
             font-weight: 500;
-            padding: 20px 0;
-            line-height: 1.71429;
             text-align: left;
-            
+
             &:hover {
                 text-decoration: none;
                 color: $primeryColor;
                 cursor: pointer;
             }
         }
+
         .active {
             color: $primeryColor;
         }
 
 
     }
+
+    .show {
+        transform: translate(0, 0);
+        height: 200px;
+    }
+
     .burgerBtn {
         width: 30px;
         height: 30px;
         background-color: $primeryColor;
         position: absolute;
         top: 24px;
-        right: 30px;
+        right: 32px;
     }
+
     @media screen and (min-width: 420px) {
         display: none;
     }
