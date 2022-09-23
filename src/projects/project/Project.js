@@ -5,7 +5,7 @@ import style from './Project.module.scss';
 function Project(props) {
   return (
     <div className={style.projectContainer}>
-      <a className={style.image} style={props.style} href={props.url}></a>
+      <p><a href={props.url}><img className={style.image} src={props.image} href={props.url} alt={props.alt} /></a></p>
       <div className={style.project}>
         <h4 className={style.projectTitle}>{props.title}</h4>
         <span className={style.description}>{props.description}</span>

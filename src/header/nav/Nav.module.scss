@@ -1,4 +1,5 @@
 @import '../../common/styles/sass/variables.scss';
+@import '../../common/styles/sass/mixins.scss';
 
 .nav {
     width: 400px;
@@ -8,28 +9,33 @@
     list-style: none;
 
     a {
-        font-family: 'Poppins', sans-serif;
+        /*      font-family: 'Poppins', sans-serif;
         color: $titleColor;
         font-size: 16px;
-        text-decoration: none;
         font-weight: 500;
-        padding: 20px 0;
         line-height: 1.71429;
+         */
+        @include text (16px, 1.71429, 500, $fontFamilyPoppins, $titleColor);
+        text-decoration: none;
+        padding: 20px 0;
         text-align: left;
-        
+
         &:hover {
             text-decoration: none;
             color: $primeryColor;
             cursor: pointer;
         }
     }
+
     .active {
         color: $primeryColor;
     }
+
     .logo {
         height: 55px;
         width: 55px;
     }
+
     @media screen and (max-width: 420px) {
         display: none;
     }

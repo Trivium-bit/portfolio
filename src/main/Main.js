@@ -18,7 +18,7 @@ function Main() {
           />
         </div>
         <Tilt transitionSpeed={3000}>
-          <img className={style.foto} src={foto} />
+          <img className={style.foto} src={foto} alt={"mainFoto"} />
         </Tilt>
       </div>
     </div>

@@ -8,7 +8,7 @@ function Footer() {
     <div className={style.footerBlock}>
       <div className={`${styleContainer.container} ${style.footerContainer}`}>
         <div><MySocialNetworks /></div>
-        <div className={style.copyright}>© 2021 All rights reserved </div>
+        <div className={style.copyright}>© 2022 All rights reserved </div>
       </div>
     </div>
   );

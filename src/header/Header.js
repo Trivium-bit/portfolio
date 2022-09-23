@@ -6,10 +6,14 @@ import MySocialNetworks from '../common/components/mySocialNetworks/MySocialNetw
 
 function Header() {
   return (
-    <div className={style.header}>
-      <Nav />
-      <BurgerNav />
-      <MySocialNetworks />
+    <div className={style.headerBlock}>
+      <div className={style.headerContainer}>
+        <div className={style.header}>
+          <Nav />
+          <BurgerNav />
+          <MySocialNetworks />
+        </div>
+      </div>
     </div>
   );
 }

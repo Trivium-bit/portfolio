@@ -1,6 +1,7 @@
 @mixin projetsImage() {
         border-radius: 5px;
         height: 250px;
+        width: 400px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -8,7 +9,8 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        transition: 0.5s;
+        transition: 0.4s;
+        border: 0px;
 }
 
 @mixin text($fontSize, $lineHeight, $fontWeight, $fontFamily, $color ) {
