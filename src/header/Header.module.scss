@@ -1,14 +1,16 @@
 @import '../common/styles/sass/variables.scss';
 
 .headerBlock {
-    //height: 200px;
-    position: fixed;
-    top: 0;
-    display: block;
-    z-index: 9999;
-    width: 100%;
-
+    right: 10px;
+    max-width: 100%;
+   
     .header {
+
+        position: fixed;
+        display: block;  
+        z-index: 10;
+        width: 100%;
+        max-width: inherit;
 
         display: flex;
         flex-direction: row;

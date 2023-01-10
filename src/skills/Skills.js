@@ -46,7 +46,7 @@ const skills = [
   {
     logo: "dashicons:rest-api",
     title: "REST API",
-    description: "Thiadasdasdas is whesdasdasdasre things get a little fuzzy and you ",
+    description: "A REST API is a way for two computer systems to communicate using the HTTP technologies found in web browsers and servers.",
   },
   {
     logo: "simple-icons:postman",

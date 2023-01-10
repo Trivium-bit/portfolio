@@ -16,6 +16,7 @@
         margin: 0 auto;
         flex-wrap: wrap;
         padding: 260px 0px;
+        margin-top: -8px;
 
         @media screen and (max-width: 420px) {
             padding-top: 60px;
@@ -63,7 +64,8 @@
                 font-weight: 900;
                 font-family: Montserrat, sans-serif;
                 line-height: 90px;
-                margin: 0px; */
+                */
+                margin: 0px; 
                 @include text (75px, 90px, 900, $fontFamilyMontserrat, $titleColor);
             }
 

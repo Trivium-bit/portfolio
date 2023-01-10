@@ -52,7 +52,7 @@ function Nav() {
         spy={true}
         smooth={true}
         hashSpy={true}
-        offset={-67}
+        offset={0}
         duration={500}
         isDynamic={true}
         ignoreCancelEvents={false}
